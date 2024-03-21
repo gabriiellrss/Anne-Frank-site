@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+   /* background-color: rgb(141, 151, 163);*/
+   background-image: url(https://wallpapercave.com/wp/wp3030263.jpg);
+   background-repeat:no-repeat;
+   background-size: 100%;
+   background-attachment: fixed
+}
+
+
+header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+div {
+    padding-left: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+nav li {
+    display: inline;
+}
+
+ul {
+    flex-direction: row;
+    list-style-type: none;  
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div {
+    display: flex;
+}
+
+
+
+
+li a{
+    font-size: 20px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    color:blueviolet;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+  }
+
+
+
+main{
+    background-color: rgba(244, 58, 213, 0.6);
+    padding: 25px;
+    width: 90%;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+
+
+h1{
+    color: rgb(31, 31, 180);
+        font-family: "Whisper", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        text-align: left;
+        padding-left: 10px;
+}
+
+
+p,address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
