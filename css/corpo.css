@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    --corprincipal: #044caaa1;
+    --cortexto: rgb(0, 0, 0);
+    --fontprincipal: "Whisper", cursive:
+
 }
+
 
 .whisper-regular {
     font-family: "Whisper", cursive;
@@ -21,15 +26,18 @@ p,address{
 
 
 main{
-    /*background-color: rgba(76, 114, 219, 0.341);*/
-    background-color: rgba(102, 87, 87, 0.572);
-    padding: 25px;
-    width: 90%;
-    margin: auto;
-    margin-top: 150px;
-    border-radius: 25px;
-    
+    margin-top: 70px;
 }
+
+
+/*parte 1 para baixo*/
+#main1{
+    /*background-color: rgba(76, 114, 219, 0.341);*/
+    /*background-color: rgba(102, 87, 87, 0.572); --cor antiga*/
+    margin-top: 120px;
+}
+
+
 
 .img {
     border-radius: 7px;
@@ -48,7 +56,7 @@ main{
 }
 
 #topico1 {
-    color: rgb(255, 255, 255);
+    color: var(--cortexto);
     font-family: "Whisper", cursive;
     font-size: 80px;
     border: 10px;
@@ -59,28 +67,32 @@ main{
 .filmes {
     display: flex;
     justify-content: center;
+    column-gap: 30px;
 
 }
 
 #filmediv {
+    width: 300px;
     padding: 30px;
+    background-color: #fafafa;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 30px;
 }
 
 .text-filme {
     font-size: 30px ;
     width: 100%;
     height: 60px;
-    color: rgb(255, 255, 255);
+    color: var(--cortexto);
     padding-bottom: 20px;
 }
 
 .texto {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: var(--cortexto);
     width: 310px;
 
 }
@@ -95,3 +107,146 @@ p {
     padding-top: 20px;
 }
 
+p a{
+    font-style: italic;
+    color: #044caaa1;
+}
+
+
+
+button {
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--cortexto);
+}
+
+button:hover {
+    background-color: #044caa;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+}
+
+/*parte 2 para baixo*/
+
+
+#biografia {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#imgbiografia {
+    margin-top: 15px;
+    border-radius: 7px;
+    width: 400px;
+    height: 400px;
+
+}
+
+#divbiografia1 p {
+    text-align: left;
+}
+
+#divbiografia1  {
+    display: flex;
+    flex-direction: row;
+}
+
+#divbiografia1 p {
+    padding-left: 20px;
+}
+
+#divbiografia1 h1 {
+    font-size: 60px;
+    padding-left: 20px;
+    font-family: "Whisper";
+}
+
+#main2 {
+    background-color: #fafafa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/*Parte 3*/
+
+#title {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 60px;
+    font-family: "Whisper";
+}
+
+#main3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#book1 {
+    background-color: #fafafa;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#book2 {
+    background-color: #fafafa;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+.books img {
+    width: 300px;
+    height: 464px;
+    border-radius: 7px;
+}
+
+.books h1 {
+    padding-bottom: 10px;
+}
+
+.books button {
+    margin-top: 10px;
+}
+
+/* Main 4 */
+
+#main4 {
+    background-color: #fafafa;
+    padding-bottom: 80px;
+
+}
+
+.referencias {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+}
+
+#referenciasdiv {
+    width: 300px;
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
